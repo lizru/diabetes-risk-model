@@ -24,8 +24,10 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset/da
 
 ## Model Interpretation with SHAP:
 ![SHAP Plot with Cholesterol Indicators](shap_with_chol.png)
-![SHAP Plot without Cholesterol Indicators](shap_without_chol.png)
+*SHAP values showing feature importance when cholesterol indicators are included.*
 
+![SHAP Plot without Cholesterol Indicators](shap_without_chol.png)
+*SHAP values after removing cholesterol-related features in case of potential data leakage.*
 
 ## Additional Visualizations:
 The folder 'demographic_data_viz' contains 5 extra EDA plots that help explain the demographics of the dataset.
